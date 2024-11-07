@@ -4,7 +4,7 @@ Um projeto para buscar dados de uma conta bancária fictícia.
 
 Estrutura do banco de dados e entidades:
 
-```mermade
+```mermaid
 classDiagram
     class User {
         -String name
