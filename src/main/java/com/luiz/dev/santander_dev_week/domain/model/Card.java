@@ -15,7 +15,7 @@ public record Card(
         String id,
         @Column
         String number,
-        @Column(precision = 2, scale = 13)
+        @Column(precision = 13, scale = 2)
         BigDecimal creditLimit
 ) {
 }
